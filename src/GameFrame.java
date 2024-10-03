@@ -3,7 +3,6 @@ import java.awt.*;
 
 public class GameFrame extends JFrame {
     public GameFrame() {
-        GamePanel panel = new GamePanel();
 
         this.add(new GamePanel());
         this.setTitle("Snake");
